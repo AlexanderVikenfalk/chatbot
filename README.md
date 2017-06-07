@@ -31,5 +31,5 @@ The app is used by typing a message in the box at the bottom of the screen and t
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
 
 #### Screenshot from app ####
-![Screenshot](http://imgur.com/a/vQ201.jpg)
+![Screenshot](http://i.imgur.com/HQpaPkk.jpg)
 
