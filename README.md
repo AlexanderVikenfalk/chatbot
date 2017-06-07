@@ -16,9 +16,9 @@ This project was made as a school project to try out building or own chat applic
 * **JS/ Jquery** for effects and functionality. 
 
 #### How to use this service ####
-#1 - Download/ clone the repository
-#2 - Go to the diretory of the app and type in "npm install" via a task runner (node must be installed).
-#3 - Open your web broswer and navigate to localhost:3000
+1. - Download/ clone the repository
+2. - Go to the diretory of the app and type in "npm install" via a task runner (node must be installed).
+3. - Open your web broswer and navigate to localhost:3000
 
 The app is used by typing a message in the box at the bottom of the screen and then pressing "Enter" or clicking the button. The Bot will then respond. It can respond to these phrases (case sensitive):
 
@@ -31,5 +31,5 @@ The app is used by typing a message in the box at the bottom of the screen and t
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
 
 #### Screenshot from app ####
-![Screenshot](http://imgur.com/a/vQ201)
+![Screenshot](http://imgur.com/a/vQ201.jpg)
 
