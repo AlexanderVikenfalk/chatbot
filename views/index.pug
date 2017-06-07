@@ -1,0 +1,23 @@
+html
+  head
+    script(src ='/socket.io/socket.io.js')
+    script(src ='/public/js/jquery-3.2.1.min.js')              
+    link(href='public/css/style.css' rel='stylesheet')
+    link(rel='icon', href='public/favicon/favicon.ico')
+    title Chat Bot
+    meta(charset="utf8")
+  body
+    div.containerTop
+            div.text
+                h1 Blip blop! Welcome to Chat bot!
+                h3 What&apos;s your question?
+    div.containerBottom   
+         div#chat-container
+          ul#chat-list
+         div.inputArea
+          input#chat-input(autocomplete='off')
+          button.submit-button
+            img(src='./public/icons/message-square.svg', alt='')
+    script(src ='/public/js/script.js')              
+    
+

@@ -1,0 +1,161 @@
+/*Font for headers*/
+
+@font-face {
+    font-family: funkTurm;
+    src: url(../fonts/funkturm.woff);
+}
+
+@font-face {
+    font-family: orbitron;
+    src: url(../fonts/Orbitron-Regular.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-height: 100%;
+    margin: 0 10%;
+    padding: 0;
+    position: relative;
+    background-color: #FBC44D;
+    border-left: darkcyan 2px solid;
+    border-right: darkcyan 2px solid;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 1%;
+}
+
+.containerTop {
+    background-color: #4DC7BC;
+    /*font-family: 'funkTurm', funkTurm;*/
+    height: 45%;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.text {
+    color: #E6E4E9;
+    font-size: 200%;
+    text-align: center;
+    width: 70%;
+    margin: 6% auto auto auto;
+}
+
+h1,
+h3 {
+    display: block;
+    /*background-color: #FD6423;*/
+    /*background-color: #4DC7BC;*/
+    background-color: #FF6328;
+    line-height: 120%;
+    font-family: 'funkTurm', funkTurm;
+}
+
+.containerBottom {
+    background-color: #4DC7BC;
+    /*background-color: #E6E4E9;*/
+    position: absolute;
+    bottom: 0;
+    height: 55%;
+    width: 100%;
+}
+
+#chat-container {
+    height: 70%;
+    border: 2px solid grey;
+    padding: 1%;
+    margin: 0 3%;
+    font-size: 140%;
+    background-color: white;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.inputArea {
+    margin: 2% 1% 1% 1%;
+    background-color: #4DC7BC;
+    /*background-color: ghostwhite;*/
+    text-align: center;
+    height: 3rem;
+}
+
+#chat-input {
+    padding: 0.5% 1%;
+    width: 70%;
+    height: 100%;
+    font-size: 140%;
+    /*margin: 0 auto;*/
+    vertical-align: middle;
+    border-radius: 15px 0 0 15px;
+    border: lightgray 1px solid;
+}
+
+.submit-button {
+    background-color: white;
+    border: none;
+    color: #E6E4E9;
+    margin: 0 auto;
+    padding: 6px 28px;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    vertical-align: middle;
+    margin-top: auto;
+    border: 1px solid lightgray;
+    border-radius: 0 15px 15px 0;
+}
+
+.submit-button:hover {
+    background-color: #FF6328;
+}
+
+
+/*Removing the default highlight rectangle*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/*in chat*/
+
+.user {
+    text-align: left;
+    background-color: lightcyan;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.bot {
+    text-align: right;
+    background-color: ghostwhite;
+    font-family: orbitron;
+}
+
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}

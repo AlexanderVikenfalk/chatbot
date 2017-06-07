@@ -1,0 +1,27 @@
+{
+    "name": "chatbot-project",
+    "version": "1.0.0",
+    "description": "A simple chat-bot client using socket.io, pug and express.",
+    "main": "app.js",
+    "scripts": {
+        "test": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "socket.io",
+        "pug"
+    ],
+    "author": "Alexander Vikenfalk",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.3",
+        "jquery": "^3.2.1",
+        "pug": "^2.0.0-rc.1",
+        "socket.io": "^2.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
