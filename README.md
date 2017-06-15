@@ -1,35 +1,28 @@
 
 #### Author: Alexander Vikenfalk
-#### Course: Advanced web app development 1
-#### Program: Frontend Development (YHJUST16)
+#### Course: Data management
+#### Program: Backend Development with C# (BED15)
 #### School: Lernia YH
 
 #### About this project: 
-This project was made as a school project to try out building or own chat application and a bot that could answer at least 5 different questions.
+This project was made as a school project to try out integrating paypal services into a made up web store.
 
 #### Technologies used: 
-* **Node.js** for backend. 
-* **Express.js** for routes and server handling.
-* **Socket.io** for setting up a websocket connection.
-* **CSS 3** for design.
-* **Pug** for layout.
+* **C#/ .NET** for backend. 
+* **CSS** for design.
+* **HTML** for layout.
 * **JS/ Jquery** for effects and functionality. 
 
 #### How to use this service ####
-1. Download/ clone the repository
-2. Go to the diretory of the app and type in "npm install" via a task runner (node must be installed).
-3. Open your web broswer and navigate to localhost:3000
+1. Go to http://alexander-paypalstore20170226075102.azurewebsites.net/
+2. Type in a number in the input box.
+3. Cick on the magnifying glass.
+4. Wait for the site to redirect to Paypal.
 
-The app is used by typing a message in the box at the bottom of the screen and then pressing "Enter" or clicking the button. The Bot will then respond. It can respond to these phrases (case sensitive):
-
-* "Hello"
-* "How are you?"
-* "What's your name?"
-* "What year is it?"
-* "Where do you live?"
+Since focus was on backend and the paypal integation, I havent put much effort into making it responsive, well designed or even user friendly (but the intended function works :-) ). No redirect page was made, so after completed buy it will redirect to index-page again.
 
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
 
 #### Screenshot from app ####
-![Screenshot](http://i.imgur.com/HQpaPkk.jpg)
-
+![Screenshot]([Imgur](http://i.imgur.com/bNrOO7o.png))
+![Screenshot]([Imgur]((http://i.imgur.com/S82XIhF.png))
