@@ -5,7 +5,7 @@
 #### School: Lernia YH
 
 #### About this project: 
-This project was made as a school project to try out integrating paypal services into a made up web store.
+This project was made as a school project to try out buidling an asp.net MVC and integrating paypal into the web service.
 
 #### Technologies used: 
 * **C#/ .NET** for backend. 
